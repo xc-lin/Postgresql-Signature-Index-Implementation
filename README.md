@@ -1,2 +1,2 @@
 # 9315ass02
-sss
+this is the assignment02 of COMP9315 in UNSW
