@@ -5,8 +5,8 @@ this is the assignment02 of COMP9315 in UNSW
 ###simc
     rm -f R.bsig R.data R.info R.psig R.tsig
     ./create R simc 10100 4 1000
-    ./insert R
-then insert data in _[data3](data3)_ 
+    time ./insert R < ass2-data/data3
+
 ***
 show some database info  
 
@@ -37,8 +37,7 @@ show some database info
 ###catc
     rm -f R.bsig R.data R.info R.psig R.tsig
     ./create R catc 10100 4 1000
-    ./insert R
-then insert data in _[data3](data3)_
+    time ./insert R < ass2-data/data3
 ***
 show some database info
 
