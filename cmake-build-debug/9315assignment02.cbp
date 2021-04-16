@@ -90,16 +90,7 @@
 		<Unit filename="/Users/a606/CLionProjects/9315assignment02/bsig.h">
 			<Option target="9315assignment02"/>
 		</Unit>
-		<Unit filename="/Users/a606/CLionProjects/9315assignment02/create.c">
-			<Option target="9315assignment02"/>
-		</Unit>
 		<Unit filename="/Users/a606/CLionProjects/9315assignment02/defs.h">
-			<Option target="9315assignment02"/>
-		</Unit>
-		<Unit filename="/Users/a606/CLionProjects/9315assignment02/dump.c">
-			<Option target="9315assignment02"/>
-		</Unit>
-		<Unit filename="/Users/a606/CLionProjects/9315assignment02/gendata.c">
 			<Option target="9315assignment02"/>
 		</Unit>
 		<Unit filename="/Users/a606/CLionProjects/9315assignment02/hash.c">
@@ -135,12 +126,6 @@
 		<Unit filename="/Users/a606/CLionProjects/9315assignment02/reln.h">
 			<Option target="9315assignment02"/>
 		</Unit>
-		<Unit filename="/Users/a606/CLionProjects/9315assignment02/select.c">
-			<Option target="9315assignment02"/>
-		</Unit>
-		<Unit filename="/Users/a606/CLionProjects/9315assignment02/stats.c">
-			<Option target="9315assignment02"/>
-		</Unit>
 		<Unit filename="/Users/a606/CLionProjects/9315assignment02/tsig.c">
 			<Option target="9315assignment02"/>
 		</Unit>
@@ -157,15 +142,6 @@
 			<Option target="9315assignment02"/>
 		</Unit>
 		<Unit filename="/Users/a606/CLionProjects/9315assignment02/util.h">
-			<Option target="9315assignment02"/>
-		</Unit>
-		<Unit filename="/Users/a606/CLionProjects/9315assignment02/x1.c">
-			<Option target="9315assignment02"/>
-		</Unit>
-		<Unit filename="/Users/a606/CLionProjects/9315assignment02/x2.c">
-			<Option target="9315assignment02"/>
-		</Unit>
-		<Unit filename="/Users/a606/CLionProjects/9315assignment02/x3.c">
 			<Option target="9315assignment02"/>
 		</Unit>
 		<Unit filename="/Users/a606/CLionProjects/9315assignment02/CMakeLists.txt">

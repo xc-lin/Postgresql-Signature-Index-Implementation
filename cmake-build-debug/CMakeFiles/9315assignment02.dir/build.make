@@ -102,48 +102,9 @@ CMakeFiles/9315assignment02.dir/bsig.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/9315assignment02.dir/bsig.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/a606/CLionProjects/9315assignment02/bsig.c -o CMakeFiles/9315assignment02.dir/bsig.c.s
 
-CMakeFiles/9315assignment02.dir/create.c.o: CMakeFiles/9315assignment02.dir/flags.make
-CMakeFiles/9315assignment02.dir/create.c.o: ../create.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/a606/CLionProjects/9315assignment02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/9315assignment02.dir/create.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/9315assignment02.dir/create.c.o -c /Users/a606/CLionProjects/9315assignment02/create.c
-
-CMakeFiles/9315assignment02.dir/create.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/9315assignment02.dir/create.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/a606/CLionProjects/9315assignment02/create.c > CMakeFiles/9315assignment02.dir/create.c.i
-
-CMakeFiles/9315assignment02.dir/create.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/9315assignment02.dir/create.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/a606/CLionProjects/9315assignment02/create.c -o CMakeFiles/9315assignment02.dir/create.c.s
-
-CMakeFiles/9315assignment02.dir/dump.c.o: CMakeFiles/9315assignment02.dir/flags.make
-CMakeFiles/9315assignment02.dir/dump.c.o: ../dump.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/a606/CLionProjects/9315assignment02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/9315assignment02.dir/dump.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/9315assignment02.dir/dump.c.o -c /Users/a606/CLionProjects/9315assignment02/dump.c
-
-CMakeFiles/9315assignment02.dir/dump.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/9315assignment02.dir/dump.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/a606/CLionProjects/9315assignment02/dump.c > CMakeFiles/9315assignment02.dir/dump.c.i
-
-CMakeFiles/9315assignment02.dir/dump.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/9315assignment02.dir/dump.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/a606/CLionProjects/9315assignment02/dump.c -o CMakeFiles/9315assignment02.dir/dump.c.s
-
-CMakeFiles/9315assignment02.dir/gendata.c.o: CMakeFiles/9315assignment02.dir/flags.make
-CMakeFiles/9315assignment02.dir/gendata.c.o: ../gendata.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/a606/CLionProjects/9315assignment02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/9315assignment02.dir/gendata.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/9315assignment02.dir/gendata.c.o -c /Users/a606/CLionProjects/9315assignment02/gendata.c
-
-CMakeFiles/9315assignment02.dir/gendata.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/9315assignment02.dir/gendata.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/a606/CLionProjects/9315assignment02/gendata.c > CMakeFiles/9315assignment02.dir/gendata.c.i
-
-CMakeFiles/9315assignment02.dir/gendata.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/9315assignment02.dir/gendata.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/a606/CLionProjects/9315assignment02/gendata.c -o CMakeFiles/9315assignment02.dir/gendata.c.s
-
 CMakeFiles/9315assignment02.dir/hash.c.o: CMakeFiles/9315assignment02.dir/flags.make
 CMakeFiles/9315assignment02.dir/hash.c.o: ../hash.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/a606/CLionProjects/9315assignment02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/9315assignment02.dir/hash.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/a606/CLionProjects/9315assignment02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/9315assignment02.dir/hash.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/9315assignment02.dir/hash.c.o -c /Users/a606/CLionProjects/9315assignment02/hash.c
 
 CMakeFiles/9315assignment02.dir/hash.c.i: cmake_force
@@ -156,7 +117,7 @@ CMakeFiles/9315assignment02.dir/hash.c.s: cmake_force
 
 CMakeFiles/9315assignment02.dir/insert.c.o: CMakeFiles/9315assignment02.dir/flags.make
 CMakeFiles/9315assignment02.dir/insert.c.o: ../insert.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/a606/CLionProjects/9315assignment02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/9315assignment02.dir/insert.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/a606/CLionProjects/9315assignment02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/9315assignment02.dir/insert.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/9315assignment02.dir/insert.c.o -c /Users/a606/CLionProjects/9315assignment02/insert.c
 
 CMakeFiles/9315assignment02.dir/insert.c.i: cmake_force
@@ -169,7 +130,7 @@ CMakeFiles/9315assignment02.dir/insert.c.s: cmake_force
 
 CMakeFiles/9315assignment02.dir/page.c.o: CMakeFiles/9315assignment02.dir/flags.make
 CMakeFiles/9315assignment02.dir/page.c.o: ../page.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/a606/CLionProjects/9315assignment02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/9315assignment02.dir/page.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/a606/CLionProjects/9315assignment02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/9315assignment02.dir/page.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/9315assignment02.dir/page.c.o -c /Users/a606/CLionProjects/9315assignment02/page.c
 
 CMakeFiles/9315assignment02.dir/page.c.i: cmake_force
@@ -182,7 +143,7 @@ CMakeFiles/9315assignment02.dir/page.c.s: cmake_force
 
 CMakeFiles/9315assignment02.dir/psig.c.o: CMakeFiles/9315assignment02.dir/flags.make
 CMakeFiles/9315assignment02.dir/psig.c.o: ../psig.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/a606/CLionProjects/9315assignment02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/9315assignment02.dir/psig.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/a606/CLionProjects/9315assignment02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/9315assignment02.dir/psig.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/9315assignment02.dir/psig.c.o -c /Users/a606/CLionProjects/9315assignment02/psig.c
 
 CMakeFiles/9315assignment02.dir/psig.c.i: cmake_force
@@ -195,7 +156,7 @@ CMakeFiles/9315assignment02.dir/psig.c.s: cmake_force
 
 CMakeFiles/9315assignment02.dir/query.c.o: CMakeFiles/9315assignment02.dir/flags.make
 CMakeFiles/9315assignment02.dir/query.c.o: ../query.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/a606/CLionProjects/9315assignment02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/9315assignment02.dir/query.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/a606/CLionProjects/9315assignment02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/9315assignment02.dir/query.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/9315assignment02.dir/query.c.o -c /Users/a606/CLionProjects/9315assignment02/query.c
 
 CMakeFiles/9315assignment02.dir/query.c.i: cmake_force
@@ -208,7 +169,7 @@ CMakeFiles/9315assignment02.dir/query.c.s: cmake_force
 
 CMakeFiles/9315assignment02.dir/reln.c.o: CMakeFiles/9315assignment02.dir/flags.make
 CMakeFiles/9315assignment02.dir/reln.c.o: ../reln.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/a606/CLionProjects/9315assignment02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/9315assignment02.dir/reln.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/a606/CLionProjects/9315assignment02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/9315assignment02.dir/reln.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/9315assignment02.dir/reln.c.o -c /Users/a606/CLionProjects/9315assignment02/reln.c
 
 CMakeFiles/9315assignment02.dir/reln.c.i: cmake_force
@@ -219,35 +180,9 @@ CMakeFiles/9315assignment02.dir/reln.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/9315assignment02.dir/reln.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/a606/CLionProjects/9315assignment02/reln.c -o CMakeFiles/9315assignment02.dir/reln.c.s
 
-CMakeFiles/9315assignment02.dir/select.c.o: CMakeFiles/9315assignment02.dir/flags.make
-CMakeFiles/9315assignment02.dir/select.c.o: ../select.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/a606/CLionProjects/9315assignment02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/9315assignment02.dir/select.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/9315assignment02.dir/select.c.o -c /Users/a606/CLionProjects/9315assignment02/select.c
-
-CMakeFiles/9315assignment02.dir/select.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/9315assignment02.dir/select.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/a606/CLionProjects/9315assignment02/select.c > CMakeFiles/9315assignment02.dir/select.c.i
-
-CMakeFiles/9315assignment02.dir/select.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/9315assignment02.dir/select.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/a606/CLionProjects/9315assignment02/select.c -o CMakeFiles/9315assignment02.dir/select.c.s
-
-CMakeFiles/9315assignment02.dir/stats.c.o: CMakeFiles/9315assignment02.dir/flags.make
-CMakeFiles/9315assignment02.dir/stats.c.o: ../stats.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/a606/CLionProjects/9315assignment02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/9315assignment02.dir/stats.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/9315assignment02.dir/stats.c.o -c /Users/a606/CLionProjects/9315assignment02/stats.c
-
-CMakeFiles/9315assignment02.dir/stats.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/9315assignment02.dir/stats.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/a606/CLionProjects/9315assignment02/stats.c > CMakeFiles/9315assignment02.dir/stats.c.i
-
-CMakeFiles/9315assignment02.dir/stats.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/9315assignment02.dir/stats.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/a606/CLionProjects/9315assignment02/stats.c -o CMakeFiles/9315assignment02.dir/stats.c.s
-
 CMakeFiles/9315assignment02.dir/tsig.c.o: CMakeFiles/9315assignment02.dir/flags.make
 CMakeFiles/9315assignment02.dir/tsig.c.o: ../tsig.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/a606/CLionProjects/9315assignment02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/9315assignment02.dir/tsig.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/a606/CLionProjects/9315assignment02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/9315assignment02.dir/tsig.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/9315assignment02.dir/tsig.c.o -c /Users/a606/CLionProjects/9315assignment02/tsig.c
 
 CMakeFiles/9315assignment02.dir/tsig.c.i: cmake_force
@@ -260,7 +195,7 @@ CMakeFiles/9315assignment02.dir/tsig.c.s: cmake_force
 
 CMakeFiles/9315assignment02.dir/tuple.c.o: CMakeFiles/9315assignment02.dir/flags.make
 CMakeFiles/9315assignment02.dir/tuple.c.o: ../tuple.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/a606/CLionProjects/9315assignment02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/9315assignment02.dir/tuple.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/a606/CLionProjects/9315assignment02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/9315assignment02.dir/tuple.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/9315assignment02.dir/tuple.c.o -c /Users/a606/CLionProjects/9315assignment02/tuple.c
 
 CMakeFiles/9315assignment02.dir/tuple.c.i: cmake_force
@@ -273,7 +208,7 @@ CMakeFiles/9315assignment02.dir/tuple.c.s: cmake_force
 
 CMakeFiles/9315assignment02.dir/util.c.o: CMakeFiles/9315assignment02.dir/flags.make
 CMakeFiles/9315assignment02.dir/util.c.o: ../util.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/a606/CLionProjects/9315assignment02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/9315assignment02.dir/util.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/a606/CLionProjects/9315assignment02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/9315assignment02.dir/util.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/9315assignment02.dir/util.c.o -c /Users/a606/CLionProjects/9315assignment02/util.c
 
 CMakeFiles/9315assignment02.dir/util.c.i: cmake_force
@@ -284,92 +219,37 @@ CMakeFiles/9315assignment02.dir/util.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/9315assignment02.dir/util.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/a606/CLionProjects/9315assignment02/util.c -o CMakeFiles/9315assignment02.dir/util.c.s
 
-CMakeFiles/9315assignment02.dir/x1.c.o: CMakeFiles/9315assignment02.dir/flags.make
-CMakeFiles/9315assignment02.dir/x1.c.o: ../x1.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/a606/CLionProjects/9315assignment02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/9315assignment02.dir/x1.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/9315assignment02.dir/x1.c.o -c /Users/a606/CLionProjects/9315assignment02/x1.c
-
-CMakeFiles/9315assignment02.dir/x1.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/9315assignment02.dir/x1.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/a606/CLionProjects/9315assignment02/x1.c > CMakeFiles/9315assignment02.dir/x1.c.i
-
-CMakeFiles/9315assignment02.dir/x1.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/9315assignment02.dir/x1.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/a606/CLionProjects/9315assignment02/x1.c -o CMakeFiles/9315assignment02.dir/x1.c.s
-
-CMakeFiles/9315assignment02.dir/x2.c.o: CMakeFiles/9315assignment02.dir/flags.make
-CMakeFiles/9315assignment02.dir/x2.c.o: ../x2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/a606/CLionProjects/9315assignment02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/9315assignment02.dir/x2.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/9315assignment02.dir/x2.c.o -c /Users/a606/CLionProjects/9315assignment02/x2.c
-
-CMakeFiles/9315assignment02.dir/x2.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/9315assignment02.dir/x2.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/a606/CLionProjects/9315assignment02/x2.c > CMakeFiles/9315assignment02.dir/x2.c.i
-
-CMakeFiles/9315assignment02.dir/x2.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/9315assignment02.dir/x2.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/a606/CLionProjects/9315assignment02/x2.c -o CMakeFiles/9315assignment02.dir/x2.c.s
-
-CMakeFiles/9315assignment02.dir/x3.c.o: CMakeFiles/9315assignment02.dir/flags.make
-CMakeFiles/9315assignment02.dir/x3.c.o: ../x3.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/a606/CLionProjects/9315assignment02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/9315assignment02.dir/x3.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/9315assignment02.dir/x3.c.o -c /Users/a606/CLionProjects/9315assignment02/x3.c
-
-CMakeFiles/9315assignment02.dir/x3.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/9315assignment02.dir/x3.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/a606/CLionProjects/9315assignment02/x3.c > CMakeFiles/9315assignment02.dir/x3.c.i
-
-CMakeFiles/9315assignment02.dir/x3.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/9315assignment02.dir/x3.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/a606/CLionProjects/9315assignment02/x3.c -o CMakeFiles/9315assignment02.dir/x3.c.s
-
 # Object files for target 9315assignment02
 9315assignment02_OBJECTS = \
 "CMakeFiles/9315assignment02.dir/bits.c.o" \
 "CMakeFiles/9315assignment02.dir/bsig.c.o" \
-"CMakeFiles/9315assignment02.dir/create.c.o" \
-"CMakeFiles/9315assignment02.dir/dump.c.o" \
-"CMakeFiles/9315assignment02.dir/gendata.c.o" \
 "CMakeFiles/9315assignment02.dir/hash.c.o" \
 "CMakeFiles/9315assignment02.dir/insert.c.o" \
 "CMakeFiles/9315assignment02.dir/page.c.o" \
 "CMakeFiles/9315assignment02.dir/psig.c.o" \
 "CMakeFiles/9315assignment02.dir/query.c.o" \
 "CMakeFiles/9315assignment02.dir/reln.c.o" \
-"CMakeFiles/9315assignment02.dir/select.c.o" \
-"CMakeFiles/9315assignment02.dir/stats.c.o" \
 "CMakeFiles/9315assignment02.dir/tsig.c.o" \
 "CMakeFiles/9315assignment02.dir/tuple.c.o" \
-"CMakeFiles/9315assignment02.dir/util.c.o" \
-"CMakeFiles/9315assignment02.dir/x1.c.o" \
-"CMakeFiles/9315assignment02.dir/x2.c.o" \
-"CMakeFiles/9315assignment02.dir/x3.c.o"
+"CMakeFiles/9315assignment02.dir/util.c.o"
 
 # External object files for target 9315assignment02
 9315assignment02_EXTERNAL_OBJECTS =
 
 9315assignment02: CMakeFiles/9315assignment02.dir/bits.c.o
 9315assignment02: CMakeFiles/9315assignment02.dir/bsig.c.o
-9315assignment02: CMakeFiles/9315assignment02.dir/create.c.o
-9315assignment02: CMakeFiles/9315assignment02.dir/dump.c.o
-9315assignment02: CMakeFiles/9315assignment02.dir/gendata.c.o
 9315assignment02: CMakeFiles/9315assignment02.dir/hash.c.o
 9315assignment02: CMakeFiles/9315assignment02.dir/insert.c.o
 9315assignment02: CMakeFiles/9315assignment02.dir/page.c.o
 9315assignment02: CMakeFiles/9315assignment02.dir/psig.c.o
 9315assignment02: CMakeFiles/9315assignment02.dir/query.c.o
 9315assignment02: CMakeFiles/9315assignment02.dir/reln.c.o
-9315assignment02: CMakeFiles/9315assignment02.dir/select.c.o
-9315assignment02: CMakeFiles/9315assignment02.dir/stats.c.o
 9315assignment02: CMakeFiles/9315assignment02.dir/tsig.c.o
 9315assignment02: CMakeFiles/9315assignment02.dir/tuple.c.o
 9315assignment02: CMakeFiles/9315assignment02.dir/util.c.o
-9315assignment02: CMakeFiles/9315assignment02.dir/x1.c.o
-9315assignment02: CMakeFiles/9315assignment02.dir/x2.c.o
-9315assignment02: CMakeFiles/9315assignment02.dir/x3.c.o
 9315assignment02: CMakeFiles/9315assignment02.dir/build.make
 9315assignment02: CMakeFiles/9315assignment02.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/a606/CLionProjects/9315assignment02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Linking C executable 9315assignment02"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/a606/CLionProjects/9315assignment02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking C executable 9315assignment02"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/9315assignment02.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -196,87 +196,6 @@ bsig.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/9315assignment02.dir/build.make CMakeFiles/9315assignment02.dir/bsig.c.s
 .PHONY : bsig.c.s
 
-create.o: create.c.o
-
-.PHONY : create.o
-
-# target to build an object file
-create.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/9315assignment02.dir/build.make CMakeFiles/9315assignment02.dir/create.c.o
-.PHONY : create.c.o
-
-create.i: create.c.i
-
-.PHONY : create.i
-
-# target to preprocess a source file
-create.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/9315assignment02.dir/build.make CMakeFiles/9315assignment02.dir/create.c.i
-.PHONY : create.c.i
-
-create.s: create.c.s
-
-.PHONY : create.s
-
-# target to generate assembly for a file
-create.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/9315assignment02.dir/build.make CMakeFiles/9315assignment02.dir/create.c.s
-.PHONY : create.c.s
-
-dump.o: dump.c.o
-
-.PHONY : dump.o
-
-# target to build an object file
-dump.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/9315assignment02.dir/build.make CMakeFiles/9315assignment02.dir/dump.c.o
-.PHONY : dump.c.o
-
-dump.i: dump.c.i
-
-.PHONY : dump.i
-
-# target to preprocess a source file
-dump.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/9315assignment02.dir/build.make CMakeFiles/9315assignment02.dir/dump.c.i
-.PHONY : dump.c.i
-
-dump.s: dump.c.s
-
-.PHONY : dump.s
-
-# target to generate assembly for a file
-dump.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/9315assignment02.dir/build.make CMakeFiles/9315assignment02.dir/dump.c.s
-.PHONY : dump.c.s
-
-gendata.o: gendata.c.o
-
-.PHONY : gendata.o
-
-# target to build an object file
-gendata.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/9315assignment02.dir/build.make CMakeFiles/9315assignment02.dir/gendata.c.o
-.PHONY : gendata.c.o
-
-gendata.i: gendata.c.i
-
-.PHONY : gendata.i
-
-# target to preprocess a source file
-gendata.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/9315assignment02.dir/build.make CMakeFiles/9315assignment02.dir/gendata.c.i
-.PHONY : gendata.c.i
-
-gendata.s: gendata.c.s
-
-.PHONY : gendata.s
-
-# target to generate assembly for a file
-gendata.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/9315assignment02.dir/build.make CMakeFiles/9315assignment02.dir/gendata.c.s
-.PHONY : gendata.c.s
-
 hash.o: hash.c.o
 
 .PHONY : hash.o
@@ -439,60 +358,6 @@ reln.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/9315assignment02.dir/build.make CMakeFiles/9315assignment02.dir/reln.c.s
 .PHONY : reln.c.s
 
-select.o: select.c.o
-
-.PHONY : select.o
-
-# target to build an object file
-select.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/9315assignment02.dir/build.make CMakeFiles/9315assignment02.dir/select.c.o
-.PHONY : select.c.o
-
-select.i: select.c.i
-
-.PHONY : select.i
-
-# target to preprocess a source file
-select.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/9315assignment02.dir/build.make CMakeFiles/9315assignment02.dir/select.c.i
-.PHONY : select.c.i
-
-select.s: select.c.s
-
-.PHONY : select.s
-
-# target to generate assembly for a file
-select.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/9315assignment02.dir/build.make CMakeFiles/9315assignment02.dir/select.c.s
-.PHONY : select.c.s
-
-stats.o: stats.c.o
-
-.PHONY : stats.o
-
-# target to build an object file
-stats.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/9315assignment02.dir/build.make CMakeFiles/9315assignment02.dir/stats.c.o
-.PHONY : stats.c.o
-
-stats.i: stats.c.i
-
-.PHONY : stats.i
-
-# target to preprocess a source file
-stats.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/9315assignment02.dir/build.make CMakeFiles/9315assignment02.dir/stats.c.i
-.PHONY : stats.c.i
-
-stats.s: stats.c.s
-
-.PHONY : stats.s
-
-# target to generate assembly for a file
-stats.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/9315assignment02.dir/build.make CMakeFiles/9315assignment02.dir/stats.c.s
-.PHONY : stats.c.s
-
 tsig.o: tsig.c.o
 
 .PHONY : tsig.o
@@ -574,87 +439,6 @@ util.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/9315assignment02.dir/build.make CMakeFiles/9315assignment02.dir/util.c.s
 .PHONY : util.c.s
 
-x1.o: x1.c.o
-
-.PHONY : x1.o
-
-# target to build an object file
-x1.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/9315assignment02.dir/build.make CMakeFiles/9315assignment02.dir/x1.c.o
-.PHONY : x1.c.o
-
-x1.i: x1.c.i
-
-.PHONY : x1.i
-
-# target to preprocess a source file
-x1.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/9315assignment02.dir/build.make CMakeFiles/9315assignment02.dir/x1.c.i
-.PHONY : x1.c.i
-
-x1.s: x1.c.s
-
-.PHONY : x1.s
-
-# target to generate assembly for a file
-x1.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/9315assignment02.dir/build.make CMakeFiles/9315assignment02.dir/x1.c.s
-.PHONY : x1.c.s
-
-x2.o: x2.c.o
-
-.PHONY : x2.o
-
-# target to build an object file
-x2.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/9315assignment02.dir/build.make CMakeFiles/9315assignment02.dir/x2.c.o
-.PHONY : x2.c.o
-
-x2.i: x2.c.i
-
-.PHONY : x2.i
-
-# target to preprocess a source file
-x2.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/9315assignment02.dir/build.make CMakeFiles/9315assignment02.dir/x2.c.i
-.PHONY : x2.c.i
-
-x2.s: x2.c.s
-
-.PHONY : x2.s
-
-# target to generate assembly for a file
-x2.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/9315assignment02.dir/build.make CMakeFiles/9315assignment02.dir/x2.c.s
-.PHONY : x2.c.s
-
-x3.o: x3.c.o
-
-.PHONY : x3.o
-
-# target to build an object file
-x3.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/9315assignment02.dir/build.make CMakeFiles/9315assignment02.dir/x3.c.o
-.PHONY : x3.c.o
-
-x3.i: x3.c.i
-
-.PHONY : x3.i
-
-# target to preprocess a source file
-x3.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/9315assignment02.dir/build.make CMakeFiles/9315assignment02.dir/x3.c.i
-.PHONY : x3.c.i
-
-x3.s: x3.c.s
-
-.PHONY : x3.s
-
-# target to generate assembly for a file
-x3.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/9315assignment02.dir/build.make CMakeFiles/9315assignment02.dir/x3.c.s
-.PHONY : x3.c.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -670,15 +454,6 @@ help:
 	@echo "... bsig.o"
 	@echo "... bsig.i"
 	@echo "... bsig.s"
-	@echo "... create.o"
-	@echo "... create.i"
-	@echo "... create.s"
-	@echo "... dump.o"
-	@echo "... dump.i"
-	@echo "... dump.s"
-	@echo "... gendata.o"
-	@echo "... gendata.i"
-	@echo "... gendata.s"
 	@echo "... hash.o"
 	@echo "... hash.i"
 	@echo "... hash.s"
@@ -697,12 +472,6 @@ help:
 	@echo "... reln.o"
 	@echo "... reln.i"
 	@echo "... reln.s"
-	@echo "... select.o"
-	@echo "... select.i"
-	@echo "... select.s"
-	@echo "... stats.o"
-	@echo "... stats.i"
-	@echo "... stats.s"
 	@echo "... tsig.o"
 	@echo "... tsig.i"
 	@echo "... tsig.s"
@@ -712,15 +481,6 @@ help:
 	@echo "... util.o"
 	@echo "... util.i"
 	@echo "... util.s"
-	@echo "... x1.o"
-	@echo "... x1.i"
-	@echo "... x1.s"
-	@echo "... x2.o"
-	@echo "... x2.i"
-	@echo "... x2.s"
-	@echo "... x3.o"
-	@echo "... x3.i"
-	@echo "... x3.s"
 .PHONY : help
 
 

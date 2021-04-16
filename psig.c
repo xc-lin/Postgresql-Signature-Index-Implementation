@@ -14,6 +14,8 @@ Bits makePageSig(Reln r, Tuple t) {
     int m = psigBits(r);
     int k = codeBits(r);
     int bitWidth;
+    int bitWidth_i;
+    int bitWidth_1;
     char **attributes = tupleVals(r, t);
     int n = nAttrs(r);
     Bits finalBits = newBits(m);
@@ -33,13 +35,13 @@ Bits makePageSig(Reln r, Tuple t) {
             }
             break;
         case 'c':
-            bitWidth = m / n;
-            int temp = bitWidth;
+            bitWidth_i = m / n;
+            bitWidth_1 = m / n + m % nAttrs(r);
             for (int i = 0; i < n; i++) {
                 if (i == 0) {
-                    bitWidth += m % nAttrs(r);
+                    bitWidth = bitWidth_1;
                 } else {
-                    bitWidth = temp;
+                    bitWidth = bitWidth_i;
                 }
 
                 k = bitWidth / 2 / maxTupsPP(r);
@@ -58,7 +60,9 @@ Bits makePageSig(Reln r, Tuple t) {
                 /*showBits(bits);
                 printf("\n");*/
 
-                shiftBits(bits, i * bitWidth);
+                if (i > 0) {
+                    shiftBits(bits, (i - 1) * bitWidth_i + bitWidth_1);
+                }
 
                 orBits(finalBits, bits);
 

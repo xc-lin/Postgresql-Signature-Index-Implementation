@@ -19,6 +19,8 @@ Bits makeTupleSig(Reln r, Tuple t) {
     int m = tsigBits(r);
     int k = codeBits(r);
     int bitWidth;
+    int bitWidth_i;
+    int bitWidth_1;
     char **attributes = tupleVals(r, t);
     int n = nAttrs(r);
     Bits finalBits = newBits(m);
@@ -38,13 +40,13 @@ Bits makeTupleSig(Reln r, Tuple t) {
             }
             break;
         case 'c':
-            bitWidth = m / n;
-            int temp = bitWidth;
+            bitWidth_i = m / n;
+            bitWidth_1 = m / n + m % nAttrs(r);
             for (int i = 0; i < n; i++) {
                 if (i == 0) {
-                    bitWidth += m % nAttrs(r);
+                    bitWidth = bitWidth_1;
                 } else {
-                    bitWidth = temp;
+                    bitWidth = bitWidth_i;
                 }
                 //k = bitWidth / 2;
                 if (attributes[i][0] == '?') continue;
@@ -61,7 +63,10 @@ Bits makeTupleSig(Reln r, Tuple t) {
                 }
                 /* showBits(bits);
                  printf("\n");*/
-                shiftBits(bits, i * bitWidth);
+                if (i > 0) {
+                    shiftBits(bits, (i - 1) * bitWidth_i + bitWidth_1);
+                }
+
 
                 orBits(finalBits, bits);
 
@@ -103,9 +108,9 @@ void findPagesUsingTupSigs(Query q) {
 
     // The printf below is primarily for debugging
     // Remove it before submitting this function
-   /* printf("Matched Pages:");
-    showBits(q->pages);
+    /* printf("Matched Pages:");
+     showBits(q->pages);
 
-    putchar('\n');*/
+     putchar('\n');*/
 }
 

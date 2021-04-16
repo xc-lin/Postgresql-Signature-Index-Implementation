@@ -10,10 +10,7 @@ add_executable(9315assignment02
         bits.h
         bsig.c
         bsig.h
-        create.c
         defs.h
-        dump.c
-        gendata.c
         hash.c
         hash.h
         insert.c
@@ -25,14 +22,10 @@ add_executable(9315assignment02
         query.h
         reln.c
         reln.h
-        select.c
-        stats.c
         tsig.c
         tsig.h
         tuple.c
         tuple.h
         util.c
         util.h
-        x1.c
-        x2.c
-        x3.c)
+       )
