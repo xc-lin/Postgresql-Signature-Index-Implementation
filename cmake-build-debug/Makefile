@@ -196,6 +196,33 @@ bsig.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/9315assignment02.dir/build.make CMakeFiles/9315assignment02.dir/bsig.c.s
 .PHONY : bsig.c.s
 
+create.o: create.c.o
+
+.PHONY : create.o
+
+# target to build an object file
+create.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/9315assignment02.dir/build.make CMakeFiles/9315assignment02.dir/create.c.o
+.PHONY : create.c.o
+
+create.i: create.c.i
+
+.PHONY : create.i
+
+# target to preprocess a source file
+create.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/9315assignment02.dir/build.make CMakeFiles/9315assignment02.dir/create.c.i
+.PHONY : create.c.i
+
+create.s: create.c.s
+
+.PHONY : create.s
+
+# target to generate assembly for a file
+create.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/9315assignment02.dir/build.make CMakeFiles/9315assignment02.dir/create.c.s
+.PHONY : create.c.s
+
 hash.o: hash.c.o
 
 .PHONY : hash.o
@@ -222,33 +249,6 @@ hash.s: hash.c.s
 hash.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/9315assignment02.dir/build.make CMakeFiles/9315assignment02.dir/hash.c.s
 .PHONY : hash.c.s
-
-insert.o: insert.c.o
-
-.PHONY : insert.o
-
-# target to build an object file
-insert.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/9315assignment02.dir/build.make CMakeFiles/9315assignment02.dir/insert.c.o
-.PHONY : insert.c.o
-
-insert.i: insert.c.i
-
-.PHONY : insert.i
-
-# target to preprocess a source file
-insert.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/9315assignment02.dir/build.make CMakeFiles/9315assignment02.dir/insert.c.i
-.PHONY : insert.c.i
-
-insert.s: insert.c.s
-
-.PHONY : insert.s
-
-# target to generate assembly for a file
-insert.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/9315assignment02.dir/build.make CMakeFiles/9315assignment02.dir/insert.c.s
-.PHONY : insert.c.s
 
 page.o: page.c.o
 
@@ -454,12 +454,12 @@ help:
 	@echo "... bsig.o"
 	@echo "... bsig.i"
 	@echo "... bsig.s"
+	@echo "... create.o"
+	@echo "... create.i"
+	@echo "... create.s"
 	@echo "... hash.o"
 	@echo "... hash.i"
 	@echo "... hash.s"
-	@echo "... insert.o"
-	@echo "... insert.i"
-	@echo "... insert.s"
 	@echo "... page.o"
 	@echo "... page.i"
 	@echo "... page.s"

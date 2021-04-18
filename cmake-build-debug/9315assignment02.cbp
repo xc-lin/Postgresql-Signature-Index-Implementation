@@ -90,6 +90,9 @@
 		<Unit filename="/Users/a606/CLionProjects/9315assignment02/bsig.h">
 			<Option target="9315assignment02"/>
 		</Unit>
+		<Unit filename="/Users/a606/CLionProjects/9315assignment02/create.c">
+			<Option target="9315assignment02"/>
+		</Unit>
 		<Unit filename="/Users/a606/CLionProjects/9315assignment02/defs.h">
 			<Option target="9315assignment02"/>
 		</Unit>
@@ -97,9 +100,6 @@
 			<Option target="9315assignment02"/>
 		</Unit>
 		<Unit filename="/Users/a606/CLionProjects/9315assignment02/hash.h">
-			<Option target="9315assignment02"/>
-		</Unit>
-		<Unit filename="/Users/a606/CLionProjects/9315assignment02/insert.c">
 			<Option target="9315assignment02"/>
 		</Unit>
 		<Unit filename="/Users/a606/CLionProjects/9315assignment02/page.c">

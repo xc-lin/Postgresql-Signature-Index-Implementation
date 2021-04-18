@@ -32,8 +32,7 @@ Bits newBits(int nbits) {
 // release memory associated with a Bits object
 
 void freeBits(Bits b) {
-    //TODO tested
-    // free(b->bitstring);
+
     free(b);
 
 }
@@ -43,7 +42,7 @@ void freeBits(Bits b) {
 Bool bitIsSet(Bits b, int position) {
     assert(b != NULL);
     assert(0 <= position && position < b->nbits);
-    //TODO tested
+
     int arrayPos = position / 8;
     int offset = position % 8;
     Byte mask = (1 << offset);
@@ -58,9 +57,7 @@ Bool bitIsSet(Bits b, int position) {
 
 Bool isSubset(Bits b1, Bits b2) {
     assert(b1 != NULL && b2 != NULL);
-    /* printf("b1:%d\n",b1->nbytes);
-     printf("b2:%d\n", b2->nbytes);*/
-    // assert(b1->nbytes == b2->nbytes);
+    assert(b1->nbytes == b2->nbytes);
     //TODO
     for (int i = 0; i < b1->nbytes; ++i) {
         if ((b1->bitstring[i] & b2->bitstring[i]) != b1->bitstring[i]) {
@@ -68,17 +65,7 @@ Bool isSubset(Bits b1, Bits b2) {
         }
     }
     return TRUE;
-    /*for (int i = 0; i < b1->nbytes; ++i) {
-        for (int j = 7; j >= 0; j--) {
-            Byte mask = (1 << j);
-            if (b1->bitstring[i] & mask) {
-                if (!(b2->bitstring[i] & mask)) {
-                    return FALSE;
-                }
-            }
-        }
-    }
-    return TRUE; // remove this*/
+
 }
 
 // set the bit at position to 1
@@ -90,7 +77,7 @@ void setBit(Bits b, int position) {
     int offset = position % 8;
     Byte mask = (1 << offset);
     b->bitstring[arrayPos] |= mask;
-    //TODO tested
+
 }
 
 // set all bits to 1
@@ -106,7 +93,6 @@ void setAllBits(Bits b) {
         }
     }
 
-    //TODO
 }
 
 // set the bit at position to 0

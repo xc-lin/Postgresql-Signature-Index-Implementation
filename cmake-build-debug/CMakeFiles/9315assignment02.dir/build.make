@@ -115,18 +115,18 @@ CMakeFiles/9315assignment02.dir/hash.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/9315assignment02.dir/hash.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/a606/CLionProjects/9315assignment02/hash.c -o CMakeFiles/9315assignment02.dir/hash.c.s
 
-CMakeFiles/9315assignment02.dir/insert.c.o: CMakeFiles/9315assignment02.dir/flags.make
-CMakeFiles/9315assignment02.dir/insert.c.o: ../insert.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/a606/CLionProjects/9315assignment02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/9315assignment02.dir/insert.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/9315assignment02.dir/insert.c.o -c /Users/a606/CLionProjects/9315assignment02/insert.c
+CMakeFiles/9315assignment02.dir/create.c.o: CMakeFiles/9315assignment02.dir/flags.make
+CMakeFiles/9315assignment02.dir/create.c.o: ../create.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/a606/CLionProjects/9315assignment02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/9315assignment02.dir/create.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/9315assignment02.dir/create.c.o -c /Users/a606/CLionProjects/9315assignment02/create.c
 
-CMakeFiles/9315assignment02.dir/insert.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/9315assignment02.dir/insert.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/a606/CLionProjects/9315assignment02/insert.c > CMakeFiles/9315assignment02.dir/insert.c.i
+CMakeFiles/9315assignment02.dir/create.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/9315assignment02.dir/create.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/a606/CLionProjects/9315assignment02/create.c > CMakeFiles/9315assignment02.dir/create.c.i
 
-CMakeFiles/9315assignment02.dir/insert.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/9315assignment02.dir/insert.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/a606/CLionProjects/9315assignment02/insert.c -o CMakeFiles/9315assignment02.dir/insert.c.s
+CMakeFiles/9315assignment02.dir/create.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/9315assignment02.dir/create.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/a606/CLionProjects/9315assignment02/create.c -o CMakeFiles/9315assignment02.dir/create.c.s
 
 CMakeFiles/9315assignment02.dir/page.c.o: CMakeFiles/9315assignment02.dir/flags.make
 CMakeFiles/9315assignment02.dir/page.c.o: ../page.c
@@ -224,7 +224,7 @@ CMakeFiles/9315assignment02.dir/util.c.s: cmake_force
 "CMakeFiles/9315assignment02.dir/bits.c.o" \
 "CMakeFiles/9315assignment02.dir/bsig.c.o" \
 "CMakeFiles/9315assignment02.dir/hash.c.o" \
-"CMakeFiles/9315assignment02.dir/insert.c.o" \
+"CMakeFiles/9315assignment02.dir/create.c.o" \
 "CMakeFiles/9315assignment02.dir/page.c.o" \
 "CMakeFiles/9315assignment02.dir/psig.c.o" \
 "CMakeFiles/9315assignment02.dir/query.c.o" \
@@ -239,7 +239,7 @@ CMakeFiles/9315assignment02.dir/util.c.s: cmake_force
 9315assignment02: CMakeFiles/9315assignment02.dir/bits.c.o
 9315assignment02: CMakeFiles/9315assignment02.dir/bsig.c.o
 9315assignment02: CMakeFiles/9315assignment02.dir/hash.c.o
-9315assignment02: CMakeFiles/9315assignment02.dir/insert.c.o
+9315assignment02: CMakeFiles/9315assignment02.dir/create.c.o
 9315assignment02: CMakeFiles/9315assignment02.dir/page.c.o
 9315assignment02: CMakeFiles/9315assignment02.dir/psig.c.o
 9315assignment02: CMakeFiles/9315assignment02.dir/query.c.o

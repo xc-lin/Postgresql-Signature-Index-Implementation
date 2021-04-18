@@ -6,8 +6,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_C
   "/Users/a606/CLionProjects/9315assignment02/bits.c" "/Users/a606/CLionProjects/9315assignment02/cmake-build-debug/CMakeFiles/9315assignment02.dir/bits.c.o"
   "/Users/a606/CLionProjects/9315assignment02/bsig.c" "/Users/a606/CLionProjects/9315assignment02/cmake-build-debug/CMakeFiles/9315assignment02.dir/bsig.c.o"
+  "/Users/a606/CLionProjects/9315assignment02/create.c" "/Users/a606/CLionProjects/9315assignment02/cmake-build-debug/CMakeFiles/9315assignment02.dir/create.c.o"
   "/Users/a606/CLionProjects/9315assignment02/hash.c" "/Users/a606/CLionProjects/9315assignment02/cmake-build-debug/CMakeFiles/9315assignment02.dir/hash.c.o"
-  "/Users/a606/CLionProjects/9315assignment02/insert.c" "/Users/a606/CLionProjects/9315assignment02/cmake-build-debug/CMakeFiles/9315assignment02.dir/insert.c.o"
   "/Users/a606/CLionProjects/9315assignment02/page.c" "/Users/a606/CLionProjects/9315assignment02/cmake-build-debug/CMakeFiles/9315assignment02.dir/page.c.o"
   "/Users/a606/CLionProjects/9315assignment02/psig.c" "/Users/a606/CLionProjects/9315assignment02/cmake-build-debug/CMakeFiles/9315assignment02.dir/psig.c.o"
   "/Users/a606/CLionProjects/9315assignment02/query.c" "/Users/a606/CLionProjects/9315assignment02/cmake-build-debug/CMakeFiles/9315assignment02.dir/query.c.o"

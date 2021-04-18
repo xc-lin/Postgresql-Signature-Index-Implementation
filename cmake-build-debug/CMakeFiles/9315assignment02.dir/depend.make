@@ -20,6 +20,13 @@ CMakeFiles/9315assignment02.dir/bsig.c.o: ../reln.h
 CMakeFiles/9315assignment02.dir/bsig.c.o: ../tuple.h
 CMakeFiles/9315assignment02.dir/bsig.c.o: ../util.h
 
+CMakeFiles/9315assignment02.dir/create.c.o: ../create.c
+CMakeFiles/9315assignment02.dir/create.c.o: ../defs.h
+CMakeFiles/9315assignment02.dir/create.c.o: ../page.h
+CMakeFiles/9315assignment02.dir/create.c.o: ../reln.h
+CMakeFiles/9315assignment02.dir/create.c.o: ../tuple.h
+CMakeFiles/9315assignment02.dir/create.c.o: ../util.h
+
 CMakeFiles/9315assignment02.dir/hash.c.o: ../bits.h
 CMakeFiles/9315assignment02.dir/hash.c.o: ../defs.h
 CMakeFiles/9315assignment02.dir/hash.c.o: ../hash.c
@@ -28,13 +35,6 @@ CMakeFiles/9315assignment02.dir/hash.c.o: ../page.h
 CMakeFiles/9315assignment02.dir/hash.c.o: ../reln.h
 CMakeFiles/9315assignment02.dir/hash.c.o: ../tuple.h
 CMakeFiles/9315assignment02.dir/hash.c.o: ../util.h
-
-CMakeFiles/9315assignment02.dir/insert.c.o: ../defs.h
-CMakeFiles/9315assignment02.dir/insert.c.o: ../insert.c
-CMakeFiles/9315assignment02.dir/insert.c.o: ../page.h
-CMakeFiles/9315assignment02.dir/insert.c.o: ../reln.h
-CMakeFiles/9315assignment02.dir/insert.c.o: ../tuple.h
-CMakeFiles/9315assignment02.dir/insert.c.o: ../util.h
 
 CMakeFiles/9315assignment02.dir/page.c.o: ../defs.h
 CMakeFiles/9315assignment02.dir/page.c.o: ../page.c

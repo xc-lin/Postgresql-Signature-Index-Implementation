@@ -13,7 +13,7 @@ add_executable(9315assignment02
         defs.h
         hash.c
         hash.h
-        insert.c
+        create.c
         page.c
         page.h
         psig.c
