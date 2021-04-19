@@ -3,15 +3,12 @@ this is the assignment02 of COMP9315 in UNSW
 ***
 ##Some commands for testing given by professor
 ###simc
+    make clean
+    make
     rm -f R.bsig R.data R.info R.psig R.tsig
     ./create R simc 10100 4 1000
     time ./insert R < ass2-data/data3
-
-***
-show some database info  
-
     ./stats R
-***
     ./select R '7663852,?,?,?'
     ./select R '7663852,?,?,?' t
     ./select R '7663852,?,?,?' p
@@ -35,14 +32,12 @@ show some database info
 ***
 ***
 ###catc
+    make clean
+    make
     rm -f R.bsig R.data R.info R.psig R.tsig
     ./create R catc 10100 4 1000
     time ./insert R < ass2-data/data3
-***
-show some database info
-
     ./stats R
-***
     ./select R '7663852,?,?,?'
     ./select R '7663852,?,?,?' t
     ./select R '7663852,?,?,?' p

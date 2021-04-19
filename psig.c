@@ -45,6 +45,7 @@ Bits makePageSig(Reln r, Tuple t) {
                 }
 
                 k = bitWidth / 2 / maxTupsPP(r);
+                //k = iceil(bitWidth,2 * maxTupsPP(r));
                 if (attributes[i][0] == '?') continue;
 
                 int nbits = 0; // count of set
