@@ -89,10 +89,6 @@ void findPagesUsingPageSigs(Query q) {
             int size = psigBits(q->rel);
             Bits psig = newBits(size);
             getBits(p, j , psig);
-            /*showBits(querySig);
-            printf(":query\n");
-            showBits(psig);
-            printf(":psig:\n")*/;
             if (isSubset(querySig, psig)) {
                 // printf("==============\n");
                 setBit(q->pages, sigCount);

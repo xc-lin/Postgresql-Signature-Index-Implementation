@@ -252,6 +252,7 @@ PageID addToRelation(Reln r, Tuple t) {
         putPage(r->psigf, psigPid, p);
     }
 
+    //TODO
     // use page signature to update bit-slices
     for (int i = 0; i < psigBits(r); ++i) {
         if (bitIsSet(psig, i)) {
@@ -267,7 +268,7 @@ PageID addToRelation(Reln r, Tuple t) {
         }
     }
     freeBits(psig);
-    //TODO
+
 
     return nPages(r) - 1;
 }
