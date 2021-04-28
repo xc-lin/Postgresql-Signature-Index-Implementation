@@ -66,11 +66,7 @@ Bits makeTupleSig(Reln r, Tuple t) {
                 if (i > 0) {
                     shiftBits(bits, (i - 1) * bitWidth_i + bitWidth_1);
                 }
-
-
                 orBits(finalBits, bits);
-
-
             }
             /*showBits(finalBits);
             printf("\n");*/

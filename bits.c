@@ -12,10 +12,10 @@
 #include "page.h"
 
 typedef struct _BitsRep {
-	Count  nbits;		  // how many bits
-	Count  nbytes;		  // how many bytes in array
-	Byte   bitstring[1];  // array of bytes to hold bits
-	                      // actual array size is nbytes
+    Count nbits;          // how many bits
+    Count nbytes;          // how many bytes in array
+    Byte bitstring[1];  // array of bytes to hold bits
+    // actual array size is nbytes
 } BitsRep;
 
 // create a new Bits object
@@ -84,13 +84,8 @@ void setBit(Bits b, int position) {
 
 void setAllBits(Bits b) {
     assert(b != NULL);
-    for (int i = 0; i < b->nbytes; ++i) {
-        for (int j = 0; j < 8; ++j) {
-            if (8*i+j<b->nbits){
-                setBit(b,8*i+j);
-            }
-
-        }
+    for (int i = 0; i < b->nbits; ++i) {
+        setBit(b, i);
     }
 
 }
@@ -137,46 +132,25 @@ void orBits(Bits b1, Bits b2) {
     }
 }
 
-void shiftBits(Bits b, int n){
-    int count = 0;
-    if (n>=0) {
-        for (int i = b->nbytes - 1; i >= 0; i--) {
-            for (int j = 7; j >= 0; j--) {
-                count++;
-                if (count > b->nbits) {
-                    break;
+void shiftBits(Bits b, int n) {
+    if (n >= 0) {
+        for (int i = b->nbits - 1; i >= 0; i--) {
+            if (bitIsSet(b, i)) {
+                unsetBit(b, i);
+                //printf("%d %d\n", temp, temp + n);
+                if (i + n >= 0 && i + n < b->nbits) {
+                    setBit(b, i + n);
                 }
-                Byte mask = (1 << j);
-                if (b->bitstring[i] & mask) {
-                    int temp = i * 8 + j;
-                    unsetBit(b, temp);
-                    //printf("%d %d\n", temp, temp + n);
-                    if (temp + n >= 0 && temp + n < b->nbits) {
-                        setBit(b, temp + n);
-                    }
-
-                }
-
             }
         }
     } else {
-        for (int i = 0; i <b->nbytes - 1; i++) {
-            for (int j =0; j <8; j++) {
-                count++;
-                if (count > b->nbits) {
-                    break;
+        for (int i = 0; i < b->nbits ; i++) {
+            if (bitIsSet(b, i)) {
+                unsetBit(b, i);
+                //printf("%d %d\n", temp, temp + n);
+                if (i + n >= 0 && i + n < b->nbits) {
+                    setBit(b, i + n);
                 }
-                Byte mask = (1 << j);
-                if (b->bitstring[i] & mask) {
-                    int temp = i * 8 + j;
-                    unsetBit(b, temp);
-                    //printf("%d %d\n", temp, temp + n);
-                    if (temp + n >= 0 && temp + n < b->nbits) {
-                        setBit(b, temp + n);
-                    }
-
-                }
-
             }
         }
     }
@@ -187,7 +161,7 @@ void shiftBits(Bits b, int n){
 
 void getBits(Page p, Offset pos, Bits b) {
     //TODO
-    Byte *addr = addrInPage(p,pos,b->nbytes);
+    Byte *addr = addrInPage(p, pos, b->nbytes);
     memcpy(b->bitstring, addr, b->nbytes);
 }
 
@@ -196,7 +170,7 @@ void getBits(Page p, Offset pos, Bits b) {
 
 void putBits(Page p, Offset pos, Bits b) {
     //TODO
-    Byte *addr =addrInPage(p,pos,b->nbytes);
+    Byte *addr = addrInPage(p, pos, b->nbytes);
     memcpy(addr, b->bitstring, b->nbytes);
 }
 

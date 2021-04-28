@@ -209,7 +209,8 @@ PageID addToRelation(Reln r, Tuple t) {
     addOneItem(p);
 
     freeBits(tsig);
-    rp->ntsigs++;  //written to disk in closeRelation()
+    rp->ntsigs++;
+    //written to disk in closeRelation()
     putPage(r->tsigf, tsigPid, p);
 
 
