@@ -22,18 +22,6 @@ defs.h
 page.h
 /Users/a606/CLionProjects/9315assignment02/page.h
 
-/Users/a606/CLionProjects/9315assignment02/bsig.c
-defs.h
-/Users/a606/CLionProjects/9315assignment02/defs.h
-reln.h
-/Users/a606/CLionProjects/9315assignment02/reln.h
-query.h
-/Users/a606/CLionProjects/9315assignment02/query.h
-bsig.h
-/Users/a606/CLionProjects/9315assignment02/bsig.h
-psig.h
-/Users/a606/CLionProjects/9315assignment02/psig.h
-
 /Users/a606/CLionProjects/9315assignment02/bsig.h
 defs.h
 /Users/a606/CLionProjects/9315assignment02/defs.h
@@ -131,6 +119,22 @@ tuple.h
 /Users/a606/CLionProjects/9315assignment02/tuple.h
 page.h
 /Users/a606/CLionProjects/9315assignment02/page.h
+
+/Users/a606/CLionProjects/9315assignment02/tsig.c
+unistd.h
+-
+string.h
+-
+defs.h
+/Users/a606/CLionProjects/9315assignment02/defs.h
+tsig.h
+/Users/a606/CLionProjects/9315assignment02/tsig.h
+reln.h
+/Users/a606/CLionProjects/9315assignment02/reln.h
+hash.h
+/Users/a606/CLionProjects/9315assignment02/hash.h
+bits.h
+/Users/a606/CLionProjects/9315assignment02/bits.h
 
 /Users/a606/CLionProjects/9315assignment02/tsig.h
 defs.h
