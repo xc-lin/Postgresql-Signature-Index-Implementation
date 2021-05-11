@@ -72,7 +72,9 @@ CMAKE_BINARY_DIR = /Users/a606/CLionProjects/9315assignment02/cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/9315assignment02.dir/all
+all: CMakeFiles/stats.c.dir/all
+all: CMakeFiles/select.dir/all
+all: CMakeFiles/create.dir/all
 
 .PHONY : all
 
@@ -82,36 +84,92 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/9315assignment02.dir/clean
+clean: CMakeFiles/stats.c.dir/clean
+clean: CMakeFiles/select.dir/clean
+clean: CMakeFiles/create.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/9315assignment02.dir
+# Target rules for target CMakeFiles/stats.c.dir
 
 # All Build rule for target.
-CMakeFiles/9315assignment02.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/9315assignment02.dir/build.make CMakeFiles/9315assignment02.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/9315assignment02.dir/build.make CMakeFiles/9315assignment02.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/a606/CLionProjects/9315assignment02/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12 "Built target 9315assignment02"
-.PHONY : CMakeFiles/9315assignment02.dir/all
+CMakeFiles/stats.c.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stats.c.dir/build.make CMakeFiles/stats.c.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stats.c.dir/build.make CMakeFiles/stats.c.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/a606/CLionProjects/9315assignment02/cmake-build-debug/CMakeFiles --progress-num=25,26,27,28,29,30,31,32,33,34,35,36 "Built target stats.c"
+.PHONY : CMakeFiles/stats.c.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/9315assignment02.dir/rule: cmake_check_build_system
+CMakeFiles/stats.c.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/a606/CLionProjects/9315assignment02/cmake-build-debug/CMakeFiles 12
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/9315assignment02.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/stats.c.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/a606/CLionProjects/9315assignment02/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/9315assignment02.dir/rule
+.PHONY : CMakeFiles/stats.c.dir/rule
 
 # Convenience name for target.
-9315assignment02: CMakeFiles/9315assignment02.dir/rule
+stats.c: CMakeFiles/stats.c.dir/rule
 
-.PHONY : 9315assignment02
+.PHONY : stats.c
 
 # clean rule for target.
-CMakeFiles/9315assignment02.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/9315assignment02.dir/build.make CMakeFiles/9315assignment02.dir/clean
-.PHONY : CMakeFiles/9315assignment02.dir/clean
+CMakeFiles/stats.c.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stats.c.dir/build.make CMakeFiles/stats.c.dir/clean
+.PHONY : CMakeFiles/stats.c.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/select.dir
+
+# All Build rule for target.
+CMakeFiles/select.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/select.dir/build.make CMakeFiles/select.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/select.dir/build.make CMakeFiles/select.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/a606/CLionProjects/9315assignment02/cmake-build-debug/CMakeFiles --progress-num=13,14,15,16,17,18,19,20,21,22,23,24 "Built target select"
+.PHONY : CMakeFiles/select.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/select.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/a606/CLionProjects/9315assignment02/cmake-build-debug/CMakeFiles 12
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/select.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/a606/CLionProjects/9315assignment02/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/select.dir/rule
+
+# Convenience name for target.
+select: CMakeFiles/select.dir/rule
+
+.PHONY : select
+
+# clean rule for target.
+CMakeFiles/select.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/select.dir/build.make CMakeFiles/select.dir/clean
+.PHONY : CMakeFiles/select.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/create.dir
+
+# All Build rule for target.
+CMakeFiles/create.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/create.dir/build.make CMakeFiles/create.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/create.dir/build.make CMakeFiles/create.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/a606/CLionProjects/9315assignment02/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12 "Built target create"
+.PHONY : CMakeFiles/create.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/create.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/a606/CLionProjects/9315assignment02/cmake-build-debug/CMakeFiles 12
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/create.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/a606/CLionProjects/9315assignment02/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/create.dir/rule
+
+# Convenience name for target.
+create: CMakeFiles/create.dir/rule
+
+.PHONY : create
+
+# clean rule for target.
+CMakeFiles/create.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/create.dir/build.make CMakeFiles/create.dir/clean
+.PHONY : CMakeFiles/create.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

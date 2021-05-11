@@ -130,17 +130,43 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named 9315assignment02
+# Target rules for targets named stats.c
 
 # Build rule for target.
-9315assignment02: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 9315assignment02
-.PHONY : 9315assignment02
+stats.c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 stats.c
+.PHONY : stats.c
 
 # fast build rule for target.
-9315assignment02/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/9315assignment02.dir/build.make CMakeFiles/9315assignment02.dir/build
-.PHONY : 9315assignment02/fast
+stats.c/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stats.c.dir/build.make CMakeFiles/stats.c.dir/build
+.PHONY : stats.c/fast
+
+#=============================================================================
+# Target rules for targets named select
+
+# Build rule for target.
+select: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 select
+.PHONY : select
+
+# fast build rule for target.
+select/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/select.dir/build.make CMakeFiles/select.dir/build
+.PHONY : select/fast
+
+#=============================================================================
+# Target rules for targets named create
+
+# Build rule for target.
+create: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 create
+.PHONY : create
+
+# fast build rule for target.
+create/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/create.dir/build.make CMakeFiles/create.dir/build
+.PHONY : create/fast
 
 bits.o: bits.c.o
 
@@ -148,7 +174,9 @@ bits.o: bits.c.o
 
 # target to build an object file
 bits.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/9315assignment02.dir/build.make CMakeFiles/9315assignment02.dir/bits.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stats.c.dir/build.make CMakeFiles/stats.c.dir/bits.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/select.dir/build.make CMakeFiles/select.dir/bits.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/create.dir/build.make CMakeFiles/create.dir/bits.c.o
 .PHONY : bits.c.o
 
 bits.i: bits.c.i
@@ -157,7 +185,9 @@ bits.i: bits.c.i
 
 # target to preprocess a source file
 bits.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/9315assignment02.dir/build.make CMakeFiles/9315assignment02.dir/bits.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stats.c.dir/build.make CMakeFiles/stats.c.dir/bits.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/select.dir/build.make CMakeFiles/select.dir/bits.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/create.dir/build.make CMakeFiles/create.dir/bits.c.i
 .PHONY : bits.c.i
 
 bits.s: bits.c.s
@@ -166,7 +196,9 @@ bits.s: bits.c.s
 
 # target to generate assembly for a file
 bits.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/9315assignment02.dir/build.make CMakeFiles/9315assignment02.dir/bits.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stats.c.dir/build.make CMakeFiles/stats.c.dir/bits.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/select.dir/build.make CMakeFiles/select.dir/bits.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/create.dir/build.make CMakeFiles/create.dir/bits.c.s
 .PHONY : bits.c.s
 
 bsig.o: bsig.c.o
@@ -175,7 +207,9 @@ bsig.o: bsig.c.o
 
 # target to build an object file
 bsig.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/9315assignment02.dir/build.make CMakeFiles/9315assignment02.dir/bsig.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stats.c.dir/build.make CMakeFiles/stats.c.dir/bsig.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/select.dir/build.make CMakeFiles/select.dir/bsig.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/create.dir/build.make CMakeFiles/create.dir/bsig.c.o
 .PHONY : bsig.c.o
 
 bsig.i: bsig.c.i
@@ -184,7 +218,9 @@ bsig.i: bsig.c.i
 
 # target to preprocess a source file
 bsig.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/9315assignment02.dir/build.make CMakeFiles/9315assignment02.dir/bsig.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stats.c.dir/build.make CMakeFiles/stats.c.dir/bsig.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/select.dir/build.make CMakeFiles/select.dir/bsig.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/create.dir/build.make CMakeFiles/create.dir/bsig.c.i
 .PHONY : bsig.c.i
 
 bsig.s: bsig.c.s
@@ -193,7 +229,9 @@ bsig.s: bsig.c.s
 
 # target to generate assembly for a file
 bsig.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/9315assignment02.dir/build.make CMakeFiles/9315assignment02.dir/bsig.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stats.c.dir/build.make CMakeFiles/stats.c.dir/bsig.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/select.dir/build.make CMakeFiles/select.dir/bsig.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/create.dir/build.make CMakeFiles/create.dir/bsig.c.s
 .PHONY : bsig.c.s
 
 create.o: create.c.o
@@ -202,7 +240,7 @@ create.o: create.c.o
 
 # target to build an object file
 create.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/9315assignment02.dir/build.make CMakeFiles/9315assignment02.dir/create.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/create.dir/build.make CMakeFiles/create.dir/create.c.o
 .PHONY : create.c.o
 
 create.i: create.c.i
@@ -211,7 +249,7 @@ create.i: create.c.i
 
 # target to preprocess a source file
 create.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/9315assignment02.dir/build.make CMakeFiles/9315assignment02.dir/create.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/create.dir/build.make CMakeFiles/create.dir/create.c.i
 .PHONY : create.c.i
 
 create.s: create.c.s
@@ -220,7 +258,7 @@ create.s: create.c.s
 
 # target to generate assembly for a file
 create.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/9315assignment02.dir/build.make CMakeFiles/9315assignment02.dir/create.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/create.dir/build.make CMakeFiles/create.dir/create.c.s
 .PHONY : create.c.s
 
 hash.o: hash.c.o
@@ -229,7 +267,9 @@ hash.o: hash.c.o
 
 # target to build an object file
 hash.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/9315assignment02.dir/build.make CMakeFiles/9315assignment02.dir/hash.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stats.c.dir/build.make CMakeFiles/stats.c.dir/hash.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/select.dir/build.make CMakeFiles/select.dir/hash.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/create.dir/build.make CMakeFiles/create.dir/hash.c.o
 .PHONY : hash.c.o
 
 hash.i: hash.c.i
@@ -238,7 +278,9 @@ hash.i: hash.c.i
 
 # target to preprocess a source file
 hash.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/9315assignment02.dir/build.make CMakeFiles/9315assignment02.dir/hash.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stats.c.dir/build.make CMakeFiles/stats.c.dir/hash.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/select.dir/build.make CMakeFiles/select.dir/hash.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/create.dir/build.make CMakeFiles/create.dir/hash.c.i
 .PHONY : hash.c.i
 
 hash.s: hash.c.s
@@ -247,7 +289,9 @@ hash.s: hash.c.s
 
 # target to generate assembly for a file
 hash.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/9315assignment02.dir/build.make CMakeFiles/9315assignment02.dir/hash.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stats.c.dir/build.make CMakeFiles/stats.c.dir/hash.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/select.dir/build.make CMakeFiles/select.dir/hash.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/create.dir/build.make CMakeFiles/create.dir/hash.c.s
 .PHONY : hash.c.s
 
 page.o: page.c.o
@@ -256,7 +300,9 @@ page.o: page.c.o
 
 # target to build an object file
 page.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/9315assignment02.dir/build.make CMakeFiles/9315assignment02.dir/page.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stats.c.dir/build.make CMakeFiles/stats.c.dir/page.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/select.dir/build.make CMakeFiles/select.dir/page.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/create.dir/build.make CMakeFiles/create.dir/page.c.o
 .PHONY : page.c.o
 
 page.i: page.c.i
@@ -265,7 +311,9 @@ page.i: page.c.i
 
 # target to preprocess a source file
 page.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/9315assignment02.dir/build.make CMakeFiles/9315assignment02.dir/page.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stats.c.dir/build.make CMakeFiles/stats.c.dir/page.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/select.dir/build.make CMakeFiles/select.dir/page.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/create.dir/build.make CMakeFiles/create.dir/page.c.i
 .PHONY : page.c.i
 
 page.s: page.c.s
@@ -274,7 +322,9 @@ page.s: page.c.s
 
 # target to generate assembly for a file
 page.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/9315assignment02.dir/build.make CMakeFiles/9315assignment02.dir/page.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stats.c.dir/build.make CMakeFiles/stats.c.dir/page.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/select.dir/build.make CMakeFiles/select.dir/page.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/create.dir/build.make CMakeFiles/create.dir/page.c.s
 .PHONY : page.c.s
 
 psig.o: psig.c.o
@@ -283,7 +333,9 @@ psig.o: psig.c.o
 
 # target to build an object file
 psig.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/9315assignment02.dir/build.make CMakeFiles/9315assignment02.dir/psig.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stats.c.dir/build.make CMakeFiles/stats.c.dir/psig.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/select.dir/build.make CMakeFiles/select.dir/psig.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/create.dir/build.make CMakeFiles/create.dir/psig.c.o
 .PHONY : psig.c.o
 
 psig.i: psig.c.i
@@ -292,7 +344,9 @@ psig.i: psig.c.i
 
 # target to preprocess a source file
 psig.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/9315assignment02.dir/build.make CMakeFiles/9315assignment02.dir/psig.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stats.c.dir/build.make CMakeFiles/stats.c.dir/psig.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/select.dir/build.make CMakeFiles/select.dir/psig.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/create.dir/build.make CMakeFiles/create.dir/psig.c.i
 .PHONY : psig.c.i
 
 psig.s: psig.c.s
@@ -301,7 +355,9 @@ psig.s: psig.c.s
 
 # target to generate assembly for a file
 psig.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/9315assignment02.dir/build.make CMakeFiles/9315assignment02.dir/psig.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stats.c.dir/build.make CMakeFiles/stats.c.dir/psig.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/select.dir/build.make CMakeFiles/select.dir/psig.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/create.dir/build.make CMakeFiles/create.dir/psig.c.s
 .PHONY : psig.c.s
 
 query.o: query.c.o
@@ -310,7 +366,9 @@ query.o: query.c.o
 
 # target to build an object file
 query.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/9315assignment02.dir/build.make CMakeFiles/9315assignment02.dir/query.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stats.c.dir/build.make CMakeFiles/stats.c.dir/query.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/select.dir/build.make CMakeFiles/select.dir/query.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/create.dir/build.make CMakeFiles/create.dir/query.c.o
 .PHONY : query.c.o
 
 query.i: query.c.i
@@ -319,7 +377,9 @@ query.i: query.c.i
 
 # target to preprocess a source file
 query.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/9315assignment02.dir/build.make CMakeFiles/9315assignment02.dir/query.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stats.c.dir/build.make CMakeFiles/stats.c.dir/query.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/select.dir/build.make CMakeFiles/select.dir/query.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/create.dir/build.make CMakeFiles/create.dir/query.c.i
 .PHONY : query.c.i
 
 query.s: query.c.s
@@ -328,7 +388,9 @@ query.s: query.c.s
 
 # target to generate assembly for a file
 query.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/9315assignment02.dir/build.make CMakeFiles/9315assignment02.dir/query.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stats.c.dir/build.make CMakeFiles/stats.c.dir/query.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/select.dir/build.make CMakeFiles/select.dir/query.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/create.dir/build.make CMakeFiles/create.dir/query.c.s
 .PHONY : query.c.s
 
 reln.o: reln.c.o
@@ -337,7 +399,9 @@ reln.o: reln.c.o
 
 # target to build an object file
 reln.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/9315assignment02.dir/build.make CMakeFiles/9315assignment02.dir/reln.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stats.c.dir/build.make CMakeFiles/stats.c.dir/reln.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/select.dir/build.make CMakeFiles/select.dir/reln.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/create.dir/build.make CMakeFiles/create.dir/reln.c.o
 .PHONY : reln.c.o
 
 reln.i: reln.c.i
@@ -346,7 +410,9 @@ reln.i: reln.c.i
 
 # target to preprocess a source file
 reln.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/9315assignment02.dir/build.make CMakeFiles/9315assignment02.dir/reln.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stats.c.dir/build.make CMakeFiles/stats.c.dir/reln.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/select.dir/build.make CMakeFiles/select.dir/reln.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/create.dir/build.make CMakeFiles/create.dir/reln.c.i
 .PHONY : reln.c.i
 
 reln.s: reln.c.s
@@ -355,8 +421,64 @@ reln.s: reln.c.s
 
 # target to generate assembly for a file
 reln.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/9315assignment02.dir/build.make CMakeFiles/9315assignment02.dir/reln.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stats.c.dir/build.make CMakeFiles/stats.c.dir/reln.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/select.dir/build.make CMakeFiles/select.dir/reln.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/create.dir/build.make CMakeFiles/create.dir/reln.c.s
 .PHONY : reln.c.s
+
+select.o: select.c.o
+
+.PHONY : select.o
+
+# target to build an object file
+select.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/select.dir/build.make CMakeFiles/select.dir/select.c.o
+.PHONY : select.c.o
+
+select.i: select.c.i
+
+.PHONY : select.i
+
+# target to preprocess a source file
+select.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/select.dir/build.make CMakeFiles/select.dir/select.c.i
+.PHONY : select.c.i
+
+select.s: select.c.s
+
+.PHONY : select.s
+
+# target to generate assembly for a file
+select.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/select.dir/build.make CMakeFiles/select.dir/select.c.s
+.PHONY : select.c.s
+
+stats.o: stats.c.o
+
+.PHONY : stats.o
+
+# target to build an object file
+stats.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stats.c.dir/build.make CMakeFiles/stats.c.dir/stats.c.o
+.PHONY : stats.c.o
+
+stats.i: stats.c.i
+
+.PHONY : stats.i
+
+# target to preprocess a source file
+stats.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stats.c.dir/build.make CMakeFiles/stats.c.dir/stats.c.i
+.PHONY : stats.c.i
+
+stats.s: stats.c.s
+
+.PHONY : stats.s
+
+# target to generate assembly for a file
+stats.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stats.c.dir/build.make CMakeFiles/stats.c.dir/stats.c.s
+.PHONY : stats.c.s
 
 tsig.o: tsig.c.o
 
@@ -364,7 +486,9 @@ tsig.o: tsig.c.o
 
 # target to build an object file
 tsig.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/9315assignment02.dir/build.make CMakeFiles/9315assignment02.dir/tsig.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stats.c.dir/build.make CMakeFiles/stats.c.dir/tsig.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/select.dir/build.make CMakeFiles/select.dir/tsig.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/create.dir/build.make CMakeFiles/create.dir/tsig.c.o
 .PHONY : tsig.c.o
 
 tsig.i: tsig.c.i
@@ -373,7 +497,9 @@ tsig.i: tsig.c.i
 
 # target to preprocess a source file
 tsig.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/9315assignment02.dir/build.make CMakeFiles/9315assignment02.dir/tsig.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stats.c.dir/build.make CMakeFiles/stats.c.dir/tsig.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/select.dir/build.make CMakeFiles/select.dir/tsig.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/create.dir/build.make CMakeFiles/create.dir/tsig.c.i
 .PHONY : tsig.c.i
 
 tsig.s: tsig.c.s
@@ -382,7 +508,9 @@ tsig.s: tsig.c.s
 
 # target to generate assembly for a file
 tsig.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/9315assignment02.dir/build.make CMakeFiles/9315assignment02.dir/tsig.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stats.c.dir/build.make CMakeFiles/stats.c.dir/tsig.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/select.dir/build.make CMakeFiles/select.dir/tsig.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/create.dir/build.make CMakeFiles/create.dir/tsig.c.s
 .PHONY : tsig.c.s
 
 tuple.o: tuple.c.o
@@ -391,7 +519,9 @@ tuple.o: tuple.c.o
 
 # target to build an object file
 tuple.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/9315assignment02.dir/build.make CMakeFiles/9315assignment02.dir/tuple.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stats.c.dir/build.make CMakeFiles/stats.c.dir/tuple.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/select.dir/build.make CMakeFiles/select.dir/tuple.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/create.dir/build.make CMakeFiles/create.dir/tuple.c.o
 .PHONY : tuple.c.o
 
 tuple.i: tuple.c.i
@@ -400,7 +530,9 @@ tuple.i: tuple.c.i
 
 # target to preprocess a source file
 tuple.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/9315assignment02.dir/build.make CMakeFiles/9315assignment02.dir/tuple.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stats.c.dir/build.make CMakeFiles/stats.c.dir/tuple.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/select.dir/build.make CMakeFiles/select.dir/tuple.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/create.dir/build.make CMakeFiles/create.dir/tuple.c.i
 .PHONY : tuple.c.i
 
 tuple.s: tuple.c.s
@@ -409,7 +541,9 @@ tuple.s: tuple.c.s
 
 # target to generate assembly for a file
 tuple.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/9315assignment02.dir/build.make CMakeFiles/9315assignment02.dir/tuple.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stats.c.dir/build.make CMakeFiles/stats.c.dir/tuple.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/select.dir/build.make CMakeFiles/select.dir/tuple.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/create.dir/build.make CMakeFiles/create.dir/tuple.c.s
 .PHONY : tuple.c.s
 
 util.o: util.c.o
@@ -418,7 +552,9 @@ util.o: util.c.o
 
 # target to build an object file
 util.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/9315assignment02.dir/build.make CMakeFiles/9315assignment02.dir/util.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stats.c.dir/build.make CMakeFiles/stats.c.dir/util.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/select.dir/build.make CMakeFiles/select.dir/util.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/create.dir/build.make CMakeFiles/create.dir/util.c.o
 .PHONY : util.c.o
 
 util.i: util.c.i
@@ -427,7 +563,9 @@ util.i: util.c.i
 
 # target to preprocess a source file
 util.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/9315assignment02.dir/build.make CMakeFiles/9315assignment02.dir/util.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stats.c.dir/build.make CMakeFiles/stats.c.dir/util.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/select.dir/build.make CMakeFiles/select.dir/util.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/create.dir/build.make CMakeFiles/create.dir/util.c.i
 .PHONY : util.c.i
 
 util.s: util.c.s
@@ -436,7 +574,9 @@ util.s: util.c.s
 
 # target to generate assembly for a file
 util.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/9315assignment02.dir/build.make CMakeFiles/9315assignment02.dir/util.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stats.c.dir/build.make CMakeFiles/stats.c.dir/util.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/select.dir/build.make CMakeFiles/select.dir/util.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/create.dir/build.make CMakeFiles/create.dir/util.c.s
 .PHONY : util.c.s
 
 # Help Target
@@ -447,7 +587,9 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... 9315assignment02"
+	@echo "... create"
+	@echo "... select"
+	@echo "... stats.c"
 	@echo "... bits.o"
 	@echo "... bits.i"
 	@echo "... bits.s"
@@ -472,6 +614,12 @@ help:
 	@echo "... reln.o"
 	@echo "... reln.i"
 	@echo "... reln.s"
+	@echo "... select.o"
+	@echo "... select.i"
+	@echo "... select.s"
+	@echo "... stats.o"
+	@echo "... stats.i"
+	@echo "... stats.s"
 	@echo "... tsig.o"
 	@echo "... tsig.i"
 	@echo "... tsig.s"
