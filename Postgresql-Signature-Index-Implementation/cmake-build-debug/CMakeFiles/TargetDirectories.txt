@@ -1,5 +1,0 @@
-/Users/lxc/CLionProjects/unsw/comp9315/assignment/9315assignment02/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/lxc/CLionProjects/unsw/comp9315/assignment/9315assignment02/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/lxc/CLionProjects/unsw/comp9315/assignment/9315assignment02/cmake-build-debug/CMakeFiles/stats.c.dir
-/Users/lxc/CLionProjects/unsw/comp9315/assignment/9315assignment02/cmake-build-debug/CMakeFiles/select.dir
-/Users/lxc/CLionProjects/unsw/comp9315/assignment/9315assignment02/cmake-build-debug/CMakeFiles/create.dir
