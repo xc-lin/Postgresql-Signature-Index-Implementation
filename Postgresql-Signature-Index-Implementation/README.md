@@ -1,5 +1,5 @@
-# 9315assignment02
-this is the assignment02 of COMP9315 in UNSW
+# Postgresql-Signature-Index-Implementation
+
 ***
 ##Some commands for testing given by professor
 ###simc
